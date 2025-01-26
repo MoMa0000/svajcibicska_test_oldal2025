@@ -1,7 +1,7 @@
 /* Set font */
 html {
-  font-family: Courier New;
-  font-size: 15px;
+  font-family: 'Courier New';
+  font-size: 16px;
 }
 
 /*Responsive image. Use with class="responsive".*/
@@ -82,7 +82,7 @@ html {
 /* Header picture */
 #head {
   background:url(NOAA18.jpg) top;
-  padding: 40px;
+  padding: 15px;
   background-size: 600px, 900px, auto;
 }
 
@@ -124,4 +124,24 @@ body {
   width: 200px;
   margin: auto;
 
+}
+
+/* Buttons--------------------------------------------------- */
+
+.button {
+  float: middle;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 25px;
+  text-decoration: none;
+  overflow: hidden;
+  background-color: #333;
+  border: cadetblue;
+  border-style: solid;
+}
+
+.button:hover {
+  background-color: #ccc;
+  color: black;
 }
