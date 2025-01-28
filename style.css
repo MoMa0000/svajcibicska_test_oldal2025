@@ -81,7 +81,7 @@ html {
 
 /* Header picture */
 #head {
-  background:url(NOAA18.jpg) top;
+  background:url(media/NOAA18.jpg) top;
   padding: 15px;
   background-size: 600px, 900px, auto;
 }
